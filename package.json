@@ -1,0 +1,28 @@
+{
+    "name": "covid-stopper-social-media-feeds",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TravisC618/covid-stopper-social-media-feeds.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TravisC618/covid-stopper-social-media-feeds/issues"
+    },
+    "homepage": "https://github.com/TravisC618/covid-stopper-social-media-feeds#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.4",
+        "twit": "^2.2.11"
+    }
+}
